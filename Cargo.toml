@@ -1,0 +1,16 @@
+[package]
+name = "cli_kvs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kahlil Wallace kahlil.wallace@protonmail.com"]
+description = "A simple command-line key-value store with REPL support"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/cli_kvs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+kvs = "0.0.6"
+
+[dev-dependencies]
+assert_cmd = "2"
